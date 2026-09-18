@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanterna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <button onclick="mudarCor()"><h1>Mudar cor</h1></button>
+        <button onclick="mostrarFruta(frutas)"><h1>Frutas</h1></button>
+        <script>
+            function mudarCor() {
+                if (document.body.style.backgroundColor!="rgb(255, 255, 255)") {
+                    document.body.style.backgroundColor="#FFFFFF"
+                }
+                else {document.body.style.backgroundColor="rgb(40, 38, 56)"}
+            }
+
+            const frutas = ["maçã", "pera", "uva", "banana"]
+            function mostrarFruta() {
+                var num = Math.floor(Math.random()*10)
+                while (num > 3) {num = Math.floor(Math.random()*10)}
+                alert("sua fruta foi "+ frutas[num])
+            }
+        </script>
+    </body>
+</body>
+</html>

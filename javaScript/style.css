@@ -1,0 +1,32 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(239, 190, 237);
+    height: 250px;
+    width: 500px;
+    color: rgb(25, 0, 30);
+    border-radius: 16px;
+    margin: 100px;
+    
+}
+
+button:hover {
+    transition: all 0.5s;
+    background-color: rgb(78, 7, 86);
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 64px;
+}
+
