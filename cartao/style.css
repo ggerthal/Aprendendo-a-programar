@@ -1,0 +1,64 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(198, 200, 200);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 10, 99);
+    color: aliceblue;
+    padding: 8px;
+    width: 500px;
+}
+
+#card {
+    background-color: rgb(131, 6, 172);
+    color: azure;
+    padding: 8px;
+    width: 500px;
+    border-radius: 12px;
+}
+
+#form > h1 {
+    height: 100px;
+    padding: 4px;
+    margin: 4px;
+    text-align: center;
+}
+
+#form > input {
+    background-color: antiquewhite;
+    margin-left: 8px;
+    height: 25px;
+    width: 259px;
+    border-radius: 4px;
+    margin: 6px;
+}
+
+#card > h1 {
+    height: 60px;
+    padding: 4px;
+    margin: 4px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#card > h3 {
+    font-size: 26px;
+}
+
+#linha {
+    height: 4px;
+    width: 500px;
+    background-color: black;
+}
