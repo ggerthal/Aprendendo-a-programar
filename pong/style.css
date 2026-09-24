@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+#jogo {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#pontos {
+    position: absolute;
+    color: white;
+    left: 29px;
+    top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+#barra {
+    background-color: white;
+    height: 20px;
+    width: 120px;
+    position: absolute;
+    bottom: 8px;
+    left: 50vw;
+
+    transform: translate(-50%);
+}
+
+.bolinha {
+    position: absolute;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+}
