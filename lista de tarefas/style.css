@@ -1,0 +1,75 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(241, 228, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+header {
+    background-color: rgb(45, 3, 99);
+    color: rgb(241, 233, 255);
+    height: 100px;
+    width: 100vw;
+
+    text-align: center;
+    font-size: 40px;
+}
+
+#lista {
+    background-color: rgb(248, 246, 246);
+    height: auto;
+    width: 500px;
+}
+
+#topo {
+    display: flex;
+
+    text-align: center;
+    color: rgb(73, 2, 76);
+    background-color: rgb(198, 150, 218);
+}
+
+#oQueFaz {
+    width: 400px;
+    color: rgb(69, 6, 75);
+    background-color: rgb(251, 251, 251);
+}
+
+#cria {
+    width: 100px;
+    font-size: 20px;
+    background-color: rgb(158, 223, 158);
+    border: 0px;
+    color: rgb(7, 33, 11);
+}
+
+.item {
+    color: black;
+    font-size: 24px;
+    padding: 4px;
+}
+
+.marcado {
+    text-decoration: line-through;
+    color: green;
+}
+
+#alterTema {
+    background-color: rgb(11, 11, 37);
+    color: rgb(252, 221, 254);
+    font-size: 32px;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.temaDark {
+    background-color: rgb(49, 41, 57);
+    color: rgb(237, 215, 244);
+}
